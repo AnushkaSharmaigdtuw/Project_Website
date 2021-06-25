@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="cryptosystem.html">Cryptosystem</a><br>
+  <a href="Block.html">Block Cipher</a><br>
+  <a href="DES.html">DES</a><br>
+  <a href= "AES.html"> AES</a><br>
+  <a href= "Trapdoor.html"> Trapdoor</a><br>
+  <a href= "RSA.html">RSA</a><br>
+  <a href= "ElGamal.html">ElGamal</a><br>
+  <a href= "DSS.html">Digital Signature</a><br>
+  
+
+</div>
+
+<div class="main">
+  <h2>ElGamal Cryptosystem</h2><br>
+<body>
+    <p style="color:rgb(6, 6, 12);font-size:18px;">Proposed by Taher Elgamal in 1985<br>
+        • Can be viewed as an extension of the DHKE protocol<br>
+        • Security is also based on the hardness of the discrete logarithm<br>
+        problem and the Diffie–Hellman problem<br>
+        • Based on modular exponentiation and factorization of large numbers<br>
+        • In RSA block cipher, plaintext (and ciphertext) are integers between 0 
+        and n-1 for some n<br>
+        • Typically |n| = 1024 bits<br>
+        • Means, 𝑛 ≤ 2<br>
+        1024 or 309 decimal digits<br>
+        
+    
+</body>
+</html>

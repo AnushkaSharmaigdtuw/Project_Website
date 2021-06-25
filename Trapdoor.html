@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="cryptosystem.html">Cryptosystem</a><br>
+  <a href="Block.html">Block Cipher</a><br>
+  <a href="DES.html">DES</a><br>
+  <a href= "AES.html"> AES</a><br>
+  <a href= "Trapdoor.html"> Trapdoor</a><br>
+  <a href= "RSA.html">RSA</a><br>
+  <a href= "ElGamal.html">ElGamal</a><br>
+  <a href= "DSS.html">Digital Signature</a><br>
+  
+
+</div>
+
+<div class="main">
+  <h2>Trapdoor Function</h2><br>
+<body>
+    <p style="color:rgb(6, 6, 12);font-size:18px;">  Only a few algorithms could satisfy all the PKC requirements and have 
+        received widespread acceptance in the several decades<br>
+        • This is because, all of them require a trapdoor one-way function as the<br>
+        underlying primitive for their working<br>
+        • Difficult to design a trapdoor one-way function<br>
+        • One way function: Function that is easy to compute but computationally hard to reverse<br>
+        • Easy to calculate f (x) from x<br>
+        • Hard to invert: to calculate x from f (x)</p>
+
+    <p style="color:rgb(6, 6, 12);font-size:18px;">Trapdoor One way function: One way function with additional propertyTrapdoor One way function: One way function with additional property
+• Easy to calculate f (x) from x<br>
+• Hard to invert: to calculate x from f (x)<br>
+• With certain knowledge, it is easy to invert: calculate x from f (x)<br>
+• Trapdoor One way Function Candidate: Modular Exponentiation<br>
+• Easy to calculate (xe mod n) from x<br>
+• Hard to invert: to calculate x from (xe mod n)<br>
+• The trapdoor is that with another exponent d it is easy to invert, i.e., calculate x = (xe mod 
+n)d mod n<br>
+        • Easy to calculate f (x) from x<br>
+        • Hard to invert: to calculate x from f (x)<br>
+        • With certain knowledge, it is easy to invert: calculate x from f (x)<br>
+        • Trapdoor One way Function Candidate: Modular Exponentiation<br>
+        • Easy to calculate (xe mod n) from x<br>
+        • Hard to invert: to calculate x from (xe mod n)<br>
+        • The trapdoor is that with another exponent d it is easy to invert, i.e., calculate x = (xe mod 
+        n)d mod n</p>
+    <style>
+        .responsive {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
+        }
+          .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+        
+        </style>
+      
+      
+</body>
+</html>
